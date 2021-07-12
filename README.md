@@ -9,7 +9,7 @@ $ sudo apt install python3-pip
 $ sudo pip3 install awscli
 ```
 
-### Configure AWS 
+### Configure AWS
 ```
 $ aws configure
 AWS Access Key ID [********************]: XXXXXXXXXXXXXX
@@ -27,4 +27,15 @@ $ cat .aws/credentials
 ./videos/rename.sh
 ./videos/video.sh
 ```
+or
+```
+python3 s3_download.py 2021-01-01 2021-01-31
+./cp_i2v.sh
+./videos/rename.sh
+./videos/video.sh
+```
+
+# History
+2021-07-12: Add s3_download.py to download specified files from S3.
+
 
