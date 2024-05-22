@@ -30,12 +30,14 @@ $ cat .aws/credentials
 or
 ```
 python3 s3_download.py 2021-01-01 2021-01-31
+python3 add_timestamp.py
 ./cp_i2v.sh
 ./videos/rename.sh
 ./videos/video.sh
 ```
 
 # History
+2024-05-22: Add add_timestamp.py
 2021-07-12: Add s3_download.py to download specified files from S3.
 
 
