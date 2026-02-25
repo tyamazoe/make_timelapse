@@ -1,0 +1,17 @@
+# AWS credentials - DO NOT COMMIT
+.aws/credentials
+.aws/config
+
+# Work directory with generated images and videos
+work/
+
+# Python
+__pycache__/
+*.pyc
+
+# Images directory (downloaded files)
+images/
+
+# Videos directory (generated files)
+videos/*.jpg
+videos/video.mp4
